@@ -40,8 +40,8 @@ resource "aws_ecs_service" "my_service" {
   desired_count   = 1
   launch_type     = "FARGATE"
   network_configuration {
-    subnets          = ["subnet-060626f292d4aff7b]  
-    security_groups  = ["sg-0c9fac539c2cba414]      
+    subnets          = ["subnet-0aab798ab994ef5df"]  
+    security_groups  = ["sg-0c9fac539c2cba414"]      
     assign_public_ip = true
   }
 }
